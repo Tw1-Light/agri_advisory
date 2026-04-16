@@ -1,0 +1,55 @@
+{
+	"SC-02_am": {
+		"confidence": "high",
+		"primary_stress": "Jointing-stage nitrogen recovery lag",
+		"root_cause": "N at lower edge for jointing with moderate moisture drift",
+		"actions": {
+			"today": "Apply phase-aligned N correction and light irrigation balance.",
+			"this_week": "Recheck N and moisture after 2 days and maintain uniform wetness.",
+			"avoid": "Avoid heavy irrigation that can dilute nutrient uptake."
+		},
+		"sensor_flags": "N slightly below phase target",
+		"stage_mismatch": null,
+		"advisory_text": "Jointing response looks stable. Apply measured nitrogen correction and continue close uptake monitoring.",
+		"recheck_in_days": 7,
+		"mandi_advice": null
+	},
+	"SC-02_pm": {
+		"outcome_verified": true,
+		"verification_summary": "Evening readings improved in the expected direction.",
+		"deviations_detected": [],
+		"new_risks": [],
+		"next_cycle_flags": [],
+		"diagnostic_text": "AM intervention produced expected progress with no major deviations."
+	},
+	"SC-03_pm": {
+		"outcome_verified": false,
+		"verification_summary": "Nitrogen did not move after the AM plan; corrective cycle is needed.",
+		"deviations_detected": [
+			"N"
+		],
+		"new_risks": [
+			"tillering_stagnation_risk"
+		],
+		"next_cycle_flags": [
+			"repeat_nitrogen_check",
+			"verify_application_method"
+		],
+		"diagnostic_text": "Deviation detected in nitrogen response; carry these flags into the next AM cycle."
+	},
+	"SC-04_am": {
+		"confidence": "high",
+		"primary_stress": "Late-season moisture decline risk",
+		"root_cause": "Grain filling phase with drying trend and active market window",
+		"actions": {
+			"today": "Stabilize moisture with light, timely irrigation.",
+			"this_week": "Track grain fill uniformity and maintain canopy health.",
+			"avoid": "Avoid last-minute heavy nutrient dosing near harvest window."
+		},
+		"sensor_flags": null,
+		"stage_mismatch": null,
+		"advisory_text": "Grain filling phase is active with mandi window open; balance moisture and sale timing.",
+		"recheck_in_days": 5,
+		"mandi_advice": "Market trend is active. Plan staggered sale while protecting grain quality."
+	}
+}

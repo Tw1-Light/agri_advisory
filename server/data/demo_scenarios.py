@@ -1,0 +1,32 @@
+SCENARIOS = {
+    "SC-02": {
+        "scenario_id": "SC-02",
+        "crop": "wheat",
+        "target_day": 83,
+        "am_sensors": {"N": 95, "P": 180, "K": 120, "ph": 6.2, "moisture": 34},
+        "pm_sensors": {"N": 112, "P": 179, "K": 121, "ph": 6.2, "moisture": 36},
+        "image_file": "wheat_jointing.jpg",
+        "mandi_active": False,
+        "description": "Wheat Jointing - success loop",
+    },
+    "SC-03": {
+        "scenario_id": "SC-03",
+        "crop": "rice",
+        "target_day": 25,
+        "am_sensors": {"N": 55, "P": 48, "K": 35, "ph": 6.5, "moisture": 72},
+        "pm_sensors": {"N": 55, "P": 48, "K": 35, "ph": 6.5, "moisture": 75},
+        "image_file": "rice_tillering.jpg",
+        "mandi_active": False,
+        "description": "Rice Tillering - deviation/no action",
+    },
+    "SC-04": {
+        "scenario_id": "SC-04",
+        "crop": "rice",
+        "target_day": 95,
+        "am_sensors": {"N": 20, "P": 40, "K": 60, "ph": 6.0, "moisture": 55},
+        "pm_sensors": {"N": 20, "P": 40, "K": 61, "ph": 6.0, "moisture": 48},
+        "image_file": "rice_grainfill.jpg",
+        "mandi_active": True,
+        "description": "Rice Grain Filling - mandi active",
+    },
+}
